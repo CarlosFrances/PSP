@@ -1,6 +1,8 @@
-# call FLASK/.venv/Scripts/activate
-# pip3 install -r FLASK/requirements.txt
-# flask --app FLASK/application.py --debug run
+# para portatil, añadir FLASK/ antes de las rutas
+# call .venv/Scripts/activate
+# pip install -r requirements.txt
+# flask --app application.py --debug run
+# $env:FLASK_APP='application.py'
 
 from flask import Flask, request
 
