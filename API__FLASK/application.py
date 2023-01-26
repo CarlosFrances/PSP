@@ -33,7 +33,7 @@ def return_username(username):
 def create_todo():
     data=request.data
     data=data.decode()
-    print(data)
+    print(data+"holo")
     return "ok"
 
 @application.get("/get-todos")
@@ -61,4 +61,3 @@ def get_todos():
 @application.put("/complete-todo")
 def complete_todo():
     pass
-
