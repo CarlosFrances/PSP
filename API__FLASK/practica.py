@@ -1,16 +1,21 @@
 from flask import Flask, jsonify, request
-from products import products
+
 
 application = Flask(__name__)
 
-if __name__ == "__main__":
-    application.run(debug=True,port=5000)
+from products import products
+
+
 
 
 """@application.route("/get-users/<user>") # endpoint + ruta nos sacará la edad
 def get_users(user):
 
     return user"""
+
+@application.route("/a/<string:a>/<string:e>",methods=["GET"])
+def get_a(a,e):
+    return a+e
 
 @application.route("/ping")
 def ping():
@@ -58,3 +63,6 @@ def delete_product(product_name):
         return jsonify({"message":"Product deleted",
                         "products":products})
     return jsonify({"message":"Product not found"})
+
+if __name__ == "__main__":
+    application.run(debug=True,port=5000)
