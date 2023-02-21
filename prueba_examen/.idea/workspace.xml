@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a144773-9ebd-4fda-98c3-fbd6ad77cf1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Carlos_Frances_Examen/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Carlos_Frances_Examen/.idea/Carlos_Frances_Examen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Carlos_Frances_Examen/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Carlos_Frances_Examen/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Carlos_Frances_Examen/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Carlos_Frances_Examen/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Carlos_Frances_Examen/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Carlos_Frances_Examen/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Carlos_Frances_Examen/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prueba_dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/prueba_dict.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
