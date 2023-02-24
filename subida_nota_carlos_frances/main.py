@@ -71,7 +71,7 @@ def get_user():
 
     return Response('Usuario no encontrado', status=400)
 
-app.route("/new-user",methods=["POST"])
+@app.route("/new-user",methods=["POST"])
 def new_user():
     data = json.loads(request.data.decode('utf-8'))
     for user in usuarios:
