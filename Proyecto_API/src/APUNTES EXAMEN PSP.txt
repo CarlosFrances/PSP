@@ -1,0 +1,17 @@
+como implementar un frontend hecho con JS en flask? 
+	con CORS (importar flask-cors)
+
+
+utilizar request.args.get("user",[str/int/boolean....],[valor por defecto])
+	para recibir los string query parameters (?user=X)
+
+kwargs/args
+	def function(name,*args,**kwargs): (parametros opcionales)
+
+ruta para introducir valores por qsp (/get-user?id=x&nombre=x&email=x&dni=x)
+	@app.route("/get-user")
+	def...................:
+		id = request.args("id")
+
+ruta para introducir valores por parametros
+	app.route("/get-user/<id>/<nombre>/<email>/<dni>")
