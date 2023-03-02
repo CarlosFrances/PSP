@@ -15,3 +15,9 @@ ruta para introducir valores por qsp (/get-user?id=x&nombre=x&email=x&dni=x)
 
 ruta para introducir valores por parametros
 	app.route("/get-user/<id>/<nombre>/<email>/<dni>")
+
+METODOS HTTP:
+	-PUT (Modificar)
+	-DELETE (Eliminar)
+	-POST (Agregar)
+	-GET (Mostrar)
