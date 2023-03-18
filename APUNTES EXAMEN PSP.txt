@@ -15,3 +15,20 @@ ruta para introducir valores por qsp (/get-user?id=x&nombre=x&email=x&dni=x)
 
 ruta para introducir valores por parametros
 	app.route("/get-user/<id>/<nombre>/<email>/<dni>")
+
+
+
+CODIGOS DE ERROR HTTP:
+
+200 OK: La solicitud ha tenido éxito.
+201 Created: La solicitud ha tenido éxito y se ha creado un nuevo recurso como resultado de ello.
+204 No Content: La solicitud ha tenido éxito pero no hay contenido para enviar en la respuesta.
+400 Bad Request: La solicitud no se pudo entender o estaba mal formada.
+401 Unauthorized: La solicitud no se pudo procesar porque el cliente no proporcionó credenciales válidas.
+403 Forbidden: El servidor se niega a completar la solicitud porque el cliente no tiene acceso al recurso o no tiene permisos válidos.
+404 Not Found: El servidor no puede encontrar el recurso solicitado.
+405 Method Not Allowed: La solicitud fue hecha a un recurso que no acepta el método HTTP utilizado para acceder a él.
+500 Internal Server Error: El servidor encontró una situación inesperada que le impidió completar la solicitud.
+
+como devolver un codigo de error: 
+	return 'User not found', 404
